@@ -1,0 +1,62 @@
+.outerDiv {
+  display: flex;
+
+  justify-content: center;
+}
+
+.chatlogo {
+  display: flex;
+  font-size: x-large;
+  justify-content: center;
+}
+
+.wholeDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emailDiv {
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 30vw;
+  background-color: black !important;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.notSiginInBtnDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.signup {
+  margin-left: 20px;
+}
+
+.errMsg {
+  color: red;
+}
